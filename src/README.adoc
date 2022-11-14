@@ -1,0 +1,9 @@
+= Coffee Machine Application
+
+A simple application which is simulating a coffee machine. The main focus of this project however,
+was to showcase the Open-closed Principle (see https://en.wikipedia.org/wiki/SOLID[SOLID principles]).
+
+The Open-closed Principle states: "`Objects or entities should be open for extension but closed for modification.`"
+This means that a class should be extendable without modifying the class itself. In this project the
+Open-closed Principle is applied, meaning that you can add new types of coffee and new ingredients by only
+adding new code and not changing existing code.
